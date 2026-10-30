@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Dsscord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Zero-Copy-Data-Cloning/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Zero-Copy-Data-Cloning?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Zero-Copy-Data-Cloning/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Zero-Copy-Data-Cloning?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Zero-Copy-Data-Cloning/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Zero-Copy-Data-Cloning?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Zero-Copy-Data-Cloning/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Zero-Copy-Data-Cloning/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Zero-Copy-Data-Cloning?style=flat-square&logo=git" alt="Last Commit" /></a>
@@ -79,27 +79,27 @@ The table below catalogs leading commercial SaaS, cloud-native, and appliance pl
 
 ## 💻 Open-Source GitHub Projects
 
-Explore the leading open-source repositories powering zero-copy clones, copy-on-write filesystems, and data virtualization. **Sorted descending by GitHub star count**.
+Explore the leading open-source repositories powering zero-copy clones, copy-on-write filesystems, and data virtualization. **Sorted descending by GitHub Stars_Count**.
 
 ### 🗄️ Database Branching & Orchestration Platforms
 
-1. **[Neon](https://github.com/neondatabase/neon)** [![GitHub stars](https://img.shields.io/github/stars/neondatabase/neon?style=social&color=white)](https://github.com/neondatabase/neon/stargazers)  
+1. **[Neon](https://github.com/neondatabase/neon)** [![GitHub_Stars](https://img.shields.io/github/stars/neondatabase/neon?style=social&color=white)](https://github.com/neondatabase/neon/stargazers)  
    *Architecture*: Rust & C • *License*: Apache-2.0  
    Open-source serverless PostgreSQL engine that separates compute and storage. Implements a custom multi-tenant storage engine (`safekeeper` + `pageserver`) that supports **instant page-level copy-on-write database branching**. Allows spinning up thousands of independent, fully-isolated PostgreSQL clones in milliseconds without duplicating storage.
 
-2. **[Bytebase](https://github.com/bytebase/bytebase)** [![GitHub stars](https://img.shields.io/github/stars/bytebase/bytebase?style=social&color=white)](https://github.com/bytebase/bytebase/stargazers)  
+2. **[Bytebase](https://github.com/bytebase/bytebase)** [![GitHub_Stars](https://img.shields.io/github/stars/bytebase/bytebase?style=social&color=white)](https://github.com/bytebase/bytebase/stargazers)  
    *Architecture*: Go & TypeScript • *License*: Apache-2.0  
    Database CI/CD and DevOps collaboration tool for developers and DBAs. Features automated schema migration, data masking, and instant database branch cloning workflows for PostgreSQL, MySQL, ClickHouse, and Snowflake.
 
-3. **[Database Lab Engine](https://github.com/postgres-ai/database-lab-engine)** [![GitHub stars](https://img.shields.io/github/stars/postgres-ai/database-lab-engine?style=social&color=white)](https://github.com/postgres-ai/database-lab-engine/stargazers)  
+3. **[Database Lab Engine](https://github.com/postgres-ai/database-lab-engine)** [![GitHub_Stars](https://img.shields.io/github/stars/postgres-ai/database-lab-engine?style=social&color=white)](https://github.com/postgres-ai/database-lab-engine/stargazers)  
    *Architecture*: Go • *License*: AGPL-3.0  
    Open-source technology for thin cloning of PostgreSQL databases of any size in tens of seconds. Built on top of ZFS or AWS EBS volume snapshots; orchestrates thin database clones inside Docker containers for non-production testing, verification of schema migrations, and SQL query tuning without extra storage costs.
 
-4. **[pgclone](https://github.com/valehdba/pgclone)** [![GitHub stars](https://img.shields.io/github/stars/valehdba/pgclone?style=social&color=white)](https://github.com/valehdba/pgclone/stargazers)  
+4. **[pgclone](https://github.com/valehdba/pgclone)** [![GitHub_Stars](https://img.shields.io/github/stars/valehdba/pgclone?style=social&color=white)](https://github.com/valehdba/pgclone/stargazers)  
    *Architecture*: C & PL/pgSQL • *License*: PostgreSQL License  
    Native PostgreSQL extension for in-database zero-copy schema and table cloning without invoking `pg_dump` or `pg_restore`. Features built-in data masking (emails, names, credit cards, phones), parallel background workers, and full DDL support for Postgres 14 through 18.
 
-5. **[StagDB (Community Edition)](https://github.com/abuta-labs/stagdb-ce)** [![GitHub stars](https://img.shields.io/github/stars/abuta-labs/stagdb-ce?style=social&color=white)](https://github.com/abuta-labs/stagdb-ce/stargazers)  
+5. **[StagDB (Community Edition)](https://github.com/abuta-labs/stagdb-ce)** [![GitHub_Stars](https://img.shields.io/github/stars/abuta-labs/stagdb-ce?style=social&color=white)](https://github.com/abuta-labs/stagdb-ce/stargazers)  
    *Architecture*: Python & Docker • *License*: Open Source  
    Self-hosted web platform orchestrating instant PostgreSQL database clones using Docker and ZFS copy-on-write datasets. Provisions functional clone environments in ~5 seconds with built-in connection string generators and health monitors.
 
@@ -107,23 +107,23 @@ Explore the leading open-source repositories powering zero-copy clones, copy-on-
 
 ### 📁 Filesystems, Reflinks & Storage Engines
 
-1. **[iterative/dvc](https://github.com/iterative/dvc)** [![GitHub stars](https://img.shields.io/github/stars/iterative/dvc?style=social&color=white)](https://github.com/iterative/dvc/stargazers)  
+1. **[iterative/dvc](https://github.com/iterative/dvc)** [![GitHub_Stars](https://img.shields.io/github/stars/iterative/dvc?style=social&color=white)](https://github.com/iterative/dvc/stargazers)  
    *Architecture*: Python • *License*: Apache-2.0  
    Data Version Control (DVC) for machine learning projects. Leverages filesystem-level **zero-copy reflinks (`FICLONE`), hard links, and symlinks** to version multi-gigabyte models and datasets in $O(1)$ time without data duplication.
 
-2. **[JuiceFS](https://github.com/juicedata/juicefs)** [![GitHub stars](https://img.shields.io/github/stars/juicedata/juicefs?style=social&color=white)](https://github.com/juicedata/juicefs/stargazers)  
+2. **[JuiceFS](https://github.com/juicedata/juicefs)** [![GitHub_Stars](https://img.shields.io/github/stars/juicedata/juicefs?style=social&color=white)](https://github.com/juicedata/juicefs/stargazers)  
    *Architecture*: Go • *License*: Apache-2.0  
    High-performance POSIX file system built on top of Redis/SQL metadata engines and S3/object storage. Provides atomic, instant zero-copy directory cloning and file snapshots via metadata pointer duplication.
 
-3. **[cubecow (Tencent CubeSandbox)](https://github.com/tencentcloud/cubesandbox)** [![GitHub stars](https://img.shields.io/github/stars/tencentcloud/cubesandbox?style=social&color=white)](https://github.com/tencentcloud/cubesandbox/stargazers)  
+3. **[cubecow (Tencent CubeSandbox)](https://github.com/tencentcloud/cubesandbox)** [![GitHub_Stars](https://img.shields.io/github/stars/tencentcloud/cubesandbox?style=social&color=white)](https://github.com/tencentcloud/cubesandbox/stargazers)  
    *Architecture*: Rust • *License*: Apache-2.0  
    Modular Rust storage engine implementing Copy-on-Write (CoW) volume cloning via Linux `FICLONE` / `xfs-reflink`. Offers $O(1)$ space-efficient volume clones, flat snapshot models, and crash-resilient storage primitives.
 
-4. **[OpenZFS](https://github.com/openzfs/zfs)** [![GitHub stars](https://img.shields.io/github/stars/openzfs/zfs?style=social&color=white)](https://github.com/openzfs/zfs/stargazers)  
+4. **[OpenZFS](https://github.com/openzfs/zfs)** [![GitHub_Stars](https://img.shields.io/github/stars/openzfs/zfs?style=social&color=white)](https://github.com/openzfs/zfs/stargazers)  
    *Architecture*: C • *License*: CDDL  
    The foundational enterprise Copy-on-Write storage platform. Features native pointer-based instant snapshots, writable clone datasets (`zfs clone`), block-level deduplication, and transactional data integrity without physical replication overhead.
 
-5. **[Btrfs Progs](https://github.com/kdave/btrfs-progs)** [![GitHub stars](https://img.shields.io/github/stars/kdave/btrfs-progs?style=social&color=white)](https://github.com/kdave/btrfs-progs/stargazers)  
+5. **[Btrfs Progs](https://github.com/kdave/btrfs-progs)** [![GitHub_Stars](https://img.shields.io/github/stars/kdave/btrfs-progs?style=social&color=white)](https://github.com/kdave/btrfs-progs/stargazers)  
    *Architecture*: C • *License*: GPL-2.0  
    User-space utilities for the Btrfs copy-on-write filesystem. Powers instant subvolume snapshots, `cp --reflink` zero-copy deduplication, and atomic subvolume cloning across modern Linux distributions.
 
@@ -131,11 +131,11 @@ Explore the leading open-source repositories powering zero-copy clones, copy-on-
 
 ### 🌊 Data Lakes & Versioned Object Storage
 
-1. **[lakeFS](https://github.com/treeverse/lakeFS)** [![GitHub stars](https://img.shields.io/github/stars/treeverse/lakeFS?style=social&color=white)](https://github.com/treeverse/lakeFS/stargazers)  
+1. **[lakeFS](https://github.com/treeverse/lakeFS)** [![GitHub_Stars](https://img.shields.io/github/stars/treeverse/lakeFS?style=social&color=white)](https://github.com/treeverse/lakeFS/stargazers)  
    *Architecture*: Go • *License*: Apache-2.0  
    Git-like data version control and zero-copy branching for data lakes (Amazon S3, Google Cloud Storage, Azure Blob). Creates isolated test/staging branches containing millions of objects in seconds without duplicating underlying Parquet or Iceberg data files.
 
-2. **[Dremio OSS](https://github.com/dremio/dremio-oss)** [![GitHub stars](https://img.shields.io/github/stars/dremio/dremio-oss?style=social&color=white)](https://github.com/dremio/dremio-oss/stargazers)  
+2. **[Dremio OSS](https://github.com/dremio/dremio-oss)** [![GitHub_Stars](https://img.shields.io/github/stars/dremio/dremio-oss?style=social&color=white)](https://github.com/dremio/dremio-oss/stargazers)  
    *Architecture*: Java & C++ • *License*: Apache-2.0  
    Open-source SQL lakehouse platform offering logical data virtualization and semantic views over heterogeneous data sources without physical ETL duplication.
 
@@ -143,7 +143,7 @@ Explore the leading open-source repositories powering zero-copy clones, copy-on-
 
 ### 🧩 Libraries, Bindings & System Primitives
 
-1. **[go-zfsutils](https://github.com/vansante/go-zfsutils)** [![GitHub stars](https://img.shields.io/github/stars/vansante/go-zfsutils?style=social&color=white)](https://github.com/vansante/go-zfsutils/stargazers)  
+1. **[go-zfsutils](https://github.com/vansante/go-zfsutils)** [![GitHub_Stars](https://img.shields.io/github/stars/vansante/go-zfsutils?style=social&color=white)](https://github.com/vansante/go-zfsutils/stargazers)  
    *Architecture*: Go • *License*: MIT  
    Idiomatic Go bindings for programmatic ZFS dataset operations, snapshot lifecycle tracking, and instant thin clone creation (`CloneOptions`).
 
